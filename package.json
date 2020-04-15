@@ -1,0 +1,11 @@
+{
+  "name": "travis-node",
+  "description": "Simple nodejs, travis and grunt demo",
+  "version": "1.0.0",
+  "devDependencies": {
+    "jshint": "^2.8.0"
+  },
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint hello.js"
+  }
+}
